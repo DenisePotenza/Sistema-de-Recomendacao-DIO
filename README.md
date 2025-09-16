@@ -15,13 +15,13 @@ O objetivo principal é desenvolver um modelo de **Deep Learning** capaz de:
 
 ## 🗂 Estrutura do Projeto  
 
-├── dataset/
-│ ├── caneta/
-│ ├── estojo/
-│ ├── lapis/
-├── image.png
-├── README.md
-├── Sistema-de-Recomendação-DIO.ipynb 
+├── dataset/  
+│ ├── caneta/  
+│ ├── estojo/  
+│ ├── lapis/  
+├── README.md  
+├── Sistema-de-Recomendação-DIO.ipynb  
+├── image.png  
 
 
 📌 O dataset deve estar organizado em **pastas por classe** (como mostrado acima).
@@ -40,20 +40,31 @@ O objetivo principal é desenvolver um modelo de **Deep Learning** capaz de:
 ## ▶️ Como Executar
 
 1. Clone este repositório:
-   ```bash
+   ```
+   bash
    git clone https://github.com/DenisePotenza/Sistema-de-Recomendacao-DIO.git
    cd sistema-recomendacao-imagens
+   ```
 
 2. Instale as dependências:
 
+```
+bash
+
 pip install torch torchvision faiss-cpu matplotlib scikit-learn
+```
+
 
 
 3. Organize seu dataset no formato descrito acima.
 
 4. Abra o notebook:
 
+```
+bash
+
 jupyter notebook Sistema-de-Recomedação-DIO.ipynb
+```
 
 
 5. Execute todas as células e teste a busca de similares.
@@ -62,7 +73,7 @@ jupyter notebook Sistema-de-Recomedação-DIO.ipynb
 
 Supondo uma imagem de consulta (caneta azul), o sistema retorna os 5 itens mais similares do dataset:
 
-<p align="center"> <img src="exemplo_resultado.png" width="700">![Exemplo de saída](image.png) </p>
+![Exemplo de saída](image.png) 
 📌 Próximos Passos
 
 * Testar com datasets maiores (ex.: centenas de imagens por classe).
